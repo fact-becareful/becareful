@@ -18,7 +18,7 @@ people:
   - MA
 
 layout: project
-image: "/img/main_fig_flipped.png"
+image: "becareful/img/main_fig_flipped.png"
 last-updated: 2025-01-30
 ---
 
