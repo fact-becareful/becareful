@@ -1,5 +1,5 @@
 name: BECAREFUL
-url: http://becareful.github.io
+url: https://fact-becareful.github.io/becareful/
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
@@ -36,7 +36,7 @@ navigation:
   - title: Home
     link: /
   - title: Research
-    link: /becareful/research.html
+    link: becareful/research.html
   - title: Publications
-    link: /publications.html
+    link: publications.html
 
