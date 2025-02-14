@@ -39,30 +39,30 @@ SD:
 
 AS:
     display_name: "Anthony Sicilia"
-    webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
+    webpage: "https://anthonysicilia.tech/"
     role: grad
     image: /becareful/img/people/anthony.webp
 
 MI:
     display_name: "Mert Inan"
-    webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
+    webpage: "https://merterm.github.io/"
     role: grad
     image: /becareful/img/people/mert.png
 
 VD:
     display_name: "Vardhan Dongre"
-    webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
+    webpage: "https://vardhandongre.github.io/"
     role: grad
     image: /becareful/img/people/vd_pic.jpg
 
 TS:
     display_name: "Tejas Srinivasan"
-    webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
+    webpage: "http://tejas1995.github.io/"
     role: grad
     image: /becareful/img/people/tejas.png
 
 UIUC:
-    display_name: 
+    display_name: "UIUC"
     webpage: "https://illinois.edu/"
     role: institutions
     image: /becareful/img/logos/uiuc.png
