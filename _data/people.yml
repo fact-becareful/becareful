@@ -36,30 +36,35 @@ SD:
     github: wolverine
     image: /becareful/img/people/sd_pic.JPG
     role: postdoc
+    bio: UIUC
 
 AS:
     display_name: "Anthony Sicilia"
     webpage: "https://anthonysicilia.tech/"
     role: grad
     image: /becareful/img/people/anthony.webp
+    bio: NEU
 
 MI:
     display_name: "Mert Inan"
     webpage: "https://merterm.github.io/"
     role: grad
     image: /becareful/img/people/mert.png
+    bio: NEU
 
 VD:
     display_name: "Vardhan Dongre"
     webpage: "https://vardhandongre.github.io/"
     role: grad
     image: /becareful/img/people/vd_pic.jpg
+    bio: UIUC
 
 TS:
     display_name: "Tejas Srinivasan"
     webpage: "http://tejas1995.github.io/"
     role: grad
     image: /becareful/img/people/tejas.png
+    bio: USC
 
 UIUC:
     display_name: "UIUC"
