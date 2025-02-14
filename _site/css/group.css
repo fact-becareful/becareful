@@ -133,22 +133,3 @@ svg {
 }
 
 /*# sourceMappingURL=group.css.map */
-
-.institutes, .sponsors {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 30px; /* Adjust space between logos */
-  text-align: center;
-}
-
-.institutes .institute-item, .sponsors .sponsor-item {
-  flex: 1 1 auto;  /* Ensures flexible row layout */
-  max-width: 150px; /* Adjust as needed */
-}
-
-.institutes img, .sponsors img {
-  max-height: 80px; /* Adjust logo size */
-  width: auto;
-}
