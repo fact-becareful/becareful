@@ -1,5 +1,5 @@
 ---
-title: Better Slow than Sorry
+title: A Taxonomy for Positive Friction
 
 description: |
   Better Slow than Sorry: Introducing Positive Friction for Reliable Dialogue Systems
