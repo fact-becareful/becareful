@@ -16,6 +16,46 @@ layout: default
 {% endif %}
 
 
+
+<!-- Project Deliverables -->
+{% if site.data.friction %}
+    <h2>Deliverables</h2>
+    <section class="deliverables d-flex flex-wrap justify-content-center">
+        {% for item in site.data.friction %}
+            <div class="deliverable-item text-center">
+                <h5>{{ item.title }}</h5>
+
+                <div class="deliverables-data">
+                    {% if item.github %}
+                        <a href="{{ item.dataset }}" target="_blank">
+                            <i class="fa fa-github" aria-hidden="true"></i> Dataset
+                        </a>
+                    {% endif %}
+
+                <div class="deliverables-links">
+                    {% if item.github %}
+                        <a href="{{ item.github }}" target="_blank">
+                            <i class="fa fa-github" aria-hidden="true"></i> GitHub
+                        </a>
+                    {% endif %}
+
+                    {% if item.arxiv %}
+                        <a href="{{ item.arxiv }}" target="_blank">
+                            <i class="fa fa-file-text" aria-hidden="true"></i> ArXiv
+                        </a>
+                    {% endif %}
+
+                    {% if item.webpage %}
+                        <a href="{{ item.webpage }}" target="_blank">
+                            <i class="fa fa-globe" aria-hidden="true"></i> Website
+                        </a>
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+    </section>
+{% endif %}
+
 <!-- Sponsors Section -->
 {% assign sponsors = site.data.people | where: "role", "sponsors" %}
 {% if sponsors.size > 0 %}
