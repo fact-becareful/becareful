@@ -46,24 +46,28 @@ a > .fa {
 .deliverables {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px; /* Space between items */
+  justify-content: space-evenly; /* Ensures even spacing */
+  gap: 20px; /* Adjust space between items */
   text-align: center;
 }
 
 .deliverable-item {
-  flex: 1 1 250px; /* Adjust width while keeping it flexible */
-  max-width: 300px; /* Ensures consistency */
+  flex: 1 1 calc(33.333% - 40px); /* Adjust for 3 items per row */
+  max-width: 300px; /* Prevents oversized items */
+  min-width: 200px; /* Ensures items don’t shrink too much */
   padding: 15px;
   border: 1px solid #ddd; /* Optional: Adds a light border */
   border-radius: 8px; /* Optional: Rounds corners */
+  background-color: #f9f9f9; /* Light background for visibility */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow */
 }
 
 .deliverables-links {
   margin-top: 10px;
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .deliverables-links a {
@@ -82,6 +86,7 @@ a > .fa {
 .deliverables-links i {
   font-size: 18px;
 }
+
 
 
 /* Group logo */
