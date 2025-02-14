@@ -13,7 +13,6 @@ people:
 
 
 layout: project
-image: "img/accountability.png"
 last-updated: 2025-01-15
 ---
 

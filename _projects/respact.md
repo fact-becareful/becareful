@@ -12,7 +12,6 @@ people:
   - DT
 
 layout: project
-image: "img/respact-ver3.png"
 last-updated: 2024-10-15
 ---
 
