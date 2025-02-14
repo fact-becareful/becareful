@@ -72,14 +72,21 @@ UIUC:
     role: institutions
     image: /becareful/img/logos/uiuc.png
 
+NEU:
+    display_name: 
+    webpage: "https://northeastern.edu/"
+    role: institutions
+    image: /becareful/img/logos/neu.png
+
+
 USC:
-    display_name: "USC"
+    display_name: 
     webpage: "https://usc.edu/"
     role: institutions
     image: /becareful/img/logos/usc.png
 
-NEU:
-    display_name: "NEU"
-    webpage: "https://northeastern.edu/"
-    role: institutions
-    image: /becareful/img/logos/neu.png
+Darpa:
+    display_name: 
+    webpage: "https://www.darpa.mil/research/programs/friction-for-accountability-in-conversational-transactions"
+    role: sponsor
+    image: /becareful/img/darpa.png
