@@ -15,19 +15,6 @@ layout: default
     </section>
 {% endif %}
 
-<!-- Institutes Section -->
-{% assign institutes = site.data.people | where: "role", "institutions" %}
-{% if institutes.size > 0 %}
-    <h2>Institutes</h2>
-    <section class="institutes project-institutes">
-        {% for institute in institutes %}
-            <div class="institute-item">
-                <img src="{{ institute.image }}" alt="{{ institute.display_name }}" class="img-fluid" style="max-height: 100px;">
-                <p><a href="{{ institute.webpage }}">{{ institute.display_name }}</a></p>
-            </div>
-        {% endfor %}
-    </section>
-{% endif %}
 
 <!-- Sponsors Section -->
 {% assign sponsors = site.data.people | where: "role", "sponsors" %}

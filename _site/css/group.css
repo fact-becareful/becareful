@@ -132,4 +132,18 @@ svg {
   vertical-align: middle;
 }
 
+.institutes, .sponsors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.institutes img, .sponsors img {
+  max-height: 80px; /* Ensures all logos have the same height */
+  width: auto; /* Keeps aspect ratio */
+  object-fit: contain; /* Ensures logos fit properly */
+}
+
 /*# sourceMappingURL=group.css.map */
