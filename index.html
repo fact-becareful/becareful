@@ -72,3 +72,18 @@ role-tables:
         </section>
     {% endfor %}
 </div>
+
+
+<!-- Institutes Section -->
+{% assign institutes = site.data.people | where: "role", "institutions" %}
+{% if institutes.size > 0 %}
+    <h2>Institutes</h2>
+    <section class="institutes d-flex flex-wrap justify-content-center">
+        {% for institute in institutes %}
+            <div class="m-3 text-center">
+                <img src="{{ institute.image }}" alt="{{ institute.display_name }}" class="img-fluid" style="max-height: 100px;">
+                <p><a href="{{ institute.webpage }}">{{ institute.display_name }}</a></p>
+            </div>
+        {% endfor %}
+    </section>
+{% endif %}

@@ -67,7 +67,7 @@ TS:
     bio: USC
 
 UIUC:
-    display_name: "UIUC"
+    display_name: 
     webpage: "https://illinois.edu/"
     role: institutions
     image: /becareful/img/logos/uiuc.png
