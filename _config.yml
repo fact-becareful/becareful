@@ -38,7 +38,7 @@ navigation:
   - title: Home
     link: /
   - title: Research
-    link: becareful/research.html
+    link: research.html
   - title: Publications
     link: publications.html
 
