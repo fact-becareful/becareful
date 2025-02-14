@@ -3,7 +3,7 @@ DT:
     webpage: "https://siebelschool.illinois.edu/about/people/faculty/dilek"
     github: profx
     role: faculty
-    image: "/img/people/dilek.jpeg"
+    image: "/becareful/img/people/dilek.jpeg"
     bio: Professor, Computer Science, UIUC
 
 GT:
@@ -60,12 +60,4 @@ TS:
     webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
     role: grad
     image: /img/people/tejas.png
-
-ugrad-a:
-    display_name: "Daniel Philipov"
-    role: ugrad
-
-ugrad-b:
-    display_name: "Yi-Jyun Sun"
-    role: ugrad
 
