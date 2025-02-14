@@ -1,5 +1,5 @@
 name: BECAREFUL
-url: https://fact-becareful.github.io/becareful/
+url: https://fact-becareful.github.io/becareful
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
