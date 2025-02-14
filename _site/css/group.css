@@ -133,8 +133,3 @@ svg {
 }
 
 /*# sourceMappingURL=group.css.map */
-.institutes img, .sponsors img {
-  height: 80px; /* Force a uniform height */
-  width: auto; /* Maintain aspect ratio */
-  object-fit: contain; /* Ensure the image fits within its box */
-}

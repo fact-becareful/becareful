@@ -66,24 +66,11 @@ TS:
     image: /becareful/img/people/tejas.png
     bio: USC
 
-UIUC:
+Institutions:
     display_name: 
     webpage: "https://illinois.edu/"
     role: institutions
-    image: /becareful/img/logos/uiuc.png
-
-NEU:
-    display_name: 
-    webpage: "https://northeastern.edu/"
-    role: institutions
-    image: /becareful/img/logos/neu.png
-
-
-USC:
-    display_name: 
-    webpage: "https://usc.edu/"
-    role: institutions
-    image: /becareful/img/logos/usc.png
+    image: /becareful/img/logos/mainlogo.png
 
 Darpa:
     display_name: 
