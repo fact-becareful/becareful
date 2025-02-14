@@ -3,7 +3,7 @@ DT:
     webpage: "https://siebelschool.illinois.edu/about/people/faculty/dilek"
     github: profx
     role: faculty
-    image: /img/people/dilek.jpeg
+    image: "/img/people/dilek.jpeg"
     bio: Professor, Computer Science, UIUC
 
 GT:
