@@ -61,3 +61,8 @@ TS:
     role: grad
     image: /becareful/img/people/tejas.png
 
+UIUC:
+    display_name: 
+    webpage: "https://illinois.edu/"
+    role: institutions
+    image: /becareful/img/logos/uiuc.png
