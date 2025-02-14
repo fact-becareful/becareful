@@ -131,14 +131,5 @@ section {
 svg {
   vertical-align: middle;
 }
-.person-img {
-  max-width: 150px;  /* Set a maximum width */
-  height: auto;       /* Maintain aspect ratio */
-  border-radius: 50%; /* Make circular */
-  display: block;
-  margin: 10px auto;  /* Center the image */
-  object-fit: cover;  /* Prevent distortion */
-}
-
 
 /*# sourceMappingURL=group.css.map */
