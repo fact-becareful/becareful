@@ -25,13 +25,6 @@ layout: default
             <div class="deliverable-item text-center">
                 <h5>{{ item.title }}</h5>
 
-                <div class="deliverables-data">
-                    {% if item.github %}
-                        <a href="{{ item.dataset }}" target="_blank">
-                            <i class="fa fa-github" aria-hidden="true"></i> Dataset
-                        </a>
-                    {% endif %}
-
                 <div class="deliverables-links">
                     {% if item.github %}
                         <a href="{{ item.github }}" target="_blank">

@@ -43,6 +43,47 @@ a > .fa {
   font-size: 125%;
 }
 
+.deliverables {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; /* Space between items */
+  text-align: center;
+}
+
+.deliverable-item {
+  flex: 1 1 250px; /* Adjust width while keeping it flexible */
+  max-width: 300px; /* Ensures consistency */
+  padding: 15px;
+  border: 1px solid #ddd; /* Optional: Adds a light border */
+  border-radius: 8px; /* Optional: Rounds corners */
+}
+
+.deliverables-links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.deliverables-links a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.deliverables-links a:hover {
+  text-decoration: underline;
+}
+
+.deliverables-links i {
+  font-size: 18px;
+}
+
+
 /* Group logo */
 #logo {
   width: 154px;
