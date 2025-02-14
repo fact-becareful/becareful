@@ -1,28 +1,29 @@
 ---
-title: Logo Project
+title: Better Slow than Sorry
 
 notitle: true
 
 description: |
-  This project has a sweet logo!
+  Better Slow than Sorry: Introducing Positive Friction for Reliable Dialogue Systems
 
 people:
-  - storm
-  - grad-b
-  - ugrad-c
+  - MI
+  - AS
+  - SD
+  - VD
+  - TS
+  - JT
+  - GT
+  - DT
+  - MA
 
 layout: project
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Xmencomic-logo.svg/2000px-Xmencomic-logo.svg.png"
-last-updated: 2017-04-11
+image: "/img/main_fig_flipped.png"
+last-updated: 2025-01-30
 ---
 
-Some preliminary text.
+Conversations with multiple positive friction movements lead to longer but ultimately more successful conversations.
 
 ## header
 
-Maecenas _scelerisque ut enim non convallis_. Mauris ut nisl vitae mi dictum
-mollis. Pellentesque iaculis lacinia nisl viverra laoreet. Integer ac lacus quis
-elit varius mollis et ultrices tortor. Aliquam id dolor cursus, sagittis arcu
-tincidunt, scelerisque nisi. Morbi scelerisque feugiat mi in faucibus. Maecenas
-suscipit aliquet est et efficitur. Nullam sed purus nec nulla placerat ultrices
-ac at ipsum. Mauris a imperdiet eros.
+While theories of discourse and cognitive science have long recognized the value of unhurried pacing, recent dialogue research tends to minimize friction in conversational systems. Yet, frictionless dialogue risks fostering uncritical reliance on AI outputs, which can obscure implicit assumptions and lead to unintended consequences. To meet this challenge, we propose integrating positive friction into conversational AI, which promotes user reflection on goals, critical thinking on system response, and subsequent re-conditioning of AI systems. We hypothesize systems can improve goal alignment, modeling of user mental states, and task success by deliberately slowing down conversations in strategic moments to ask questions, reveal assumptions, or pause. We present an ontology of positive friction and collect expert human annotations on multi-domain and embodied goaloriented corpora. Experiments on these corpora, along with simulated interactions using state-of-the-art systems, suggest incorporating friction not only fosters accountable decision-making, but also enhances machine understanding of user beliefs and goals, and increases task success rates.
