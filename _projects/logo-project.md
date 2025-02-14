@@ -1,8 +1,6 @@
 ---
 title: Better Slow than Sorry
 
-notitle: true
-
 description: |
   Better Slow than Sorry: Introducing Positive Friction for Reliable Dialogue Systems
 

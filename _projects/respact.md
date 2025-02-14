@@ -1,8 +1,6 @@
 ---
 title: ReSpAct Harmonizing Reasoning, Speaking, and Acting
 
-notitle: true
-
 description: |
   ReSpAct: Harmonizing Reasoning, Speaking, and Acting Towards Building Large Language Model-Based Conversational AI Agents
 people:
