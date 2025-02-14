@@ -11,7 +11,7 @@ GT:
     webpage: "https://siebelschool.illinois.edu/about/people/faculty/gokhan"
     github: profy
     role: faculty
-    image: /img/people/gokhan.jpeg
+    image: /becareful/img/people/gokhan.jpeg
     bio: Professor, Computer Science, UIUC
 
 MA:
@@ -19,7 +19,7 @@ MA:
     webpage: "https://www.malihealikhani.com/"
     github: profz
     role: faculty
-    image: /img/people/malihe.jpeg
+    image: /becareful/img/people/malihe.jpeg
     bio: Assistant Professor, Computer Science, Northeastern University
 
 JT:
@@ -27,37 +27,37 @@ JT:
     webpage: "https://jessethomason.com/"
     github: profx
     role: faculty
-    image: /img/people/jesse.jpeg
+    image: /becareful/img/people/jesse.jpeg
     bio: Assistant Professor, Computer Science, USC
 
 SD:
     display_name: "Suvodip Dey"
     webpage: "https://sites.google.com/view/suvodip-dey"
     github: wolverine
-    image: /img/people/sd_pic.JPG
+    image: /becareful/img/people/sd_pic.JPG
     role: postdoc
 
 AS:
     display_name: "Anthony Sicilia"
     webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
     role: grad
-    image: /img/people/storm.png
+    image: /becareful/img/people/anthony.webp
 
 MI:
     display_name: "Mert Inan"
     webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
     role: grad
-    image: /img/people/mert.png
+    image: /becareful/img/people/mert.png
 
 VD:
     display_name: "Vardhan Dongre"
     webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
     role: grad
-    image: /img/people/vd_pic.jpg
+    image: /becareful/img/people/vd_pic.jpg
 
 TS:
     display_name: "Tejas Srinivasan"
     webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
     role: grad
-    image: /img/people/tejas.png
+    image: /becareful/img/people/tejas.png
 
