@@ -66,3 +66,15 @@ UIUC:
     webpage: "https://illinois.edu/"
     role: institutions
     image: /becareful/img/logos/uiuc.png
+
+USC:
+    display_name: "USC"
+    webpage: "https://usc.edu/"
+    role: institutions
+    image: /becareful/img/logos/usc.png
+
+NEU:
+    display_name: "NEU"
+    webpage: "https://northeastern.edu/"
+    role: institutions
+    image: /becareful/img/logos/neu.png

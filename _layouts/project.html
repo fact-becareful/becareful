@@ -4,10 +4,41 @@ layout: default
 
 {{ content }}
 
-<h2> People </h2>
-<section class="people project-people">
-    {% for uname in page.people %}
-        {% assign person = site.data.people[uname] %}
-        {% include person.html person=person image=true%}
-    {% endfor %}
-</section>
+<!-- People Section -->
+{% if page.people %}
+    <h2>People</h2>
+    <section class="people project-people">
+        {% for uname in page.people %}
+            {% assign person = site.data.people[uname] %}
+            {% include person.html person=person image=true %}
+        {% endfor %}
+    </section>
+{% endif %}
+
+<!-- Institutes Section -->
+{% assign institutes = site.data.people | where: "role", "institutions" %}
+{% if institutes.size > 0 %}
+    <h2>Institutes</h2>
+    <section class="institutes project-institutes">
+        {% for institute in institutes %}
+            <div class="institute-item">
+                <img src="{{ institute.image }}" alt="{{ institute.display_name }}" class="img-fluid" style="max-height: 100px;">
+                <p><a href="{{ institute.webpage }}">{{ institute.display_name }}</a></p>
+            </div>
+        {% endfor %}
+    </section>
+{% endif %}
+
+<!-- Sponsors Section -->
+{% assign sponsors = site.data.people | where: "role", "sponsors" %}
+{% if sponsors.size > 0 %}
+    <h2>Sponsors</h2>
+    <section class="sponsors project-sponsors">
+        {% for sponsor in sponsors %}
+            <div class="sponsor-item">
+                <img src="{{ sponsor.image }}" alt="{{ sponsor.display_name }}" class="img-fluid" style="max-height: 100px;">
+                <p><a href="{{ sponsor.webpage }}">{{ sponsor.display_name }}</a></p>
+            </div>
+        {% endfor %}
+    </section>
+{% endif %}
