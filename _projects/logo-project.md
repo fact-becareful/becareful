@@ -22,7 +22,7 @@ image: "becareful/img/main_fig_flipped.png"
 last-updated: 2025-01-30
 ---
 
-Conversations with multiple positive friction movements lead to longer but ultimately more successful conversations.
+
 
 ## header
 
