@@ -18,10 +18,8 @@
             <div class="header d-flex
                         flex-column
                         flex-md-row justify-content-md-between">
-                <a href="{{ site.base }}/becareful/" class="">
-                    <img src="{{ site.base }}/becareful/img/logo.jpg"
-                         srcset="{{ site.base }}/becareful/img/logo@2x.png 2x"
-                         alt="Awesome" id="logo">
+                <a href="{{ site.base }}/becareful/index.html" class="">
+                    <img src="{{ site.base }}/becareful/img/logo.jpg" alt="BECAREFUL" id="logo">
                 </a>
                 <ul class="nav nav-pills justify-content-center">
 
@@ -64,13 +62,19 @@
             {{ content }}
 
             <div class="footer">
-                <p>
-                    <a href="https://illinois.edu/">University of Illinois Urbana Champaign</a> |
-                    
-                    <a href="https://www.northeastern.edu/">Northeastern University</a> |
-
-                    <a href="https://www.usc.edu/">University of Southern California</a> 
-                </p>
+                <div class="university-logos d-flex justify-content-center align-items-center flex-wrap">
+                    <a href="https://illinois.edu/" class="university-logo">
+                        <img src="{{ site.base }}/becareful/img/logos/uiuc.png" alt="University of Illinois Urbana Champaign" class="footer-logo">
+                    </a>
+                    <span class="separator mx-3">|</span>
+                    <a href="https://www.northeastern.edu/" class="university-logo">
+                        <img src="{{ site.base }}/becareful/img/logos/neu.png" alt="Northeastern University" class="footer-logo">
+                    </a>
+                    <span class="separator mx-3">|</span>
+                    <a href="https://www.usc.edu/" class="university-logo">
+                        <img src="{{ site.base }}/becareful/img/logos/usc.png" alt="University of Southern California" class="footer-logo">
+                    </a>
+                </div>
             </div>
 
         </div> <!-- /container -->
