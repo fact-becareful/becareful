@@ -9,6 +9,13 @@ people:
   - GT
   - DT
 
+deliverables:
+  - title: "GitHub"
+    github: "https://github.com/Merterm/accountability-modeling"
+  - title: "ArXiv"
+    arxiv: "https://arxiv.org/abs/2501.17348"
+  - title: "Project Website"
+    webpage: "https://merterm.github.io/accountability/"
 
 layout: project
 last-updated: 2025-01-15

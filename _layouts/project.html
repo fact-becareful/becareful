@@ -15,13 +15,11 @@ layout: default
     </section>
 {% endif %}
 
-
-
 <!-- Project Deliverables -->
-{% if site.data.friction %}
+{% if page.deliverables %}
     <h2>Deliverables</h2>
     <section class="deliverables d-flex flex-wrap justify-content-center">
-        {% for item in site.data.friction %}
+        {% for item in page.deliverables %}
             <div class="deliverable-item text-center">
                 <h5>{{ item.title }}</h5>
 

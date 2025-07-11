@@ -8,6 +8,14 @@ people:
   - MI
   - MA
 
+deliverables:
+  - title: "GitHub"
+    github: "https://github.com/Merterm/sycophancy-uncertainty"
+  - title: "ArXiv"
+    arxiv: "https://arxiv.org/abs/2501.17348"
+  - title: "Project Website"
+    webpage: "https://merterm.github.io/sycophancy/"
+
 layout: project
 last-updated: 2024-10-17
 ---

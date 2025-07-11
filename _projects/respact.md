@@ -9,6 +9,14 @@ people:
   - GT
   - DT
 
+deliverables:
+  - title: "GitHub"
+    github: "https://github.com/Merterm/ReSpAct"
+  - title: "ArXiv"
+    arxiv: "https://arxiv.org/abs/2501.17348"
+  - title: "Project Website"
+    webpage: "https://merterm.github.io/respact/"
+
 layout: project
 last-updated: 2024-10-15
 ---
