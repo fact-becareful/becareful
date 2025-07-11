@@ -1,0 +1,229 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+}
+
+.header {
+  border-bottom: 1px solid #EEE;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.footer {
+  /* padding-top: 19px; */
+  color: #999;
+  border-top: 1px solid #EEE;
+  text-align: center;
+  font-size: 0.8em;
+}
+.footer a:link, .footer a:visited {
+  color: #999;
+}
+
+.university-logos {
+  padding: 15px 0;
+}
+
+.university-logo {
+  display: inline-block;
+  transition: opacity 0.3s ease;
+}
+
+.university-logo:hover {
+  opacity: 0.8;
+}
+
+.footer-logo {
+  height: 30px;
+  width: auto;
+  max-width: 120px;
+  object-fit: contain;
+}
+
+.separator {
+  color: #999;
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .footer-logo {
+    height: 25px;
+    max-width: 100px;
+  }
+  .separator {
+    margin: 0 10px !important;
+  }
+}
+.fa {
+  color: #999;
+}
+
+a > .fa {
+  display: inline;
+}
+
+/* /\* Customize container *\/ */
+/* @media (min-width: 768px) { */
+/*     .container { */
+/*         max-width: 730px; */
+/*     } */
+/* } */
+/* Jumbotron */
+.jumbotron {
+  text-align: justify;
+  padding-top: 1.5em;
+  padding-bottom: 0.5em;
+  font-size: 125%;
+}
+
+/* Group logo */
+#logo {
+  width: 200px;
+  height: auto;
+  margin: 2px 0 8px 0;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  #logo {
+    width: 150px;
+  }
+}
+/* Front page news. */
+ul.news .date {
+  color: #999;
+  font-weight: bold;
+}
+
+ul.news > li {
+  margin-top: 1em;
+}
+
+@media (min-width: 576px) {
+  .project-people {
+    column-count: 2;
+  }
+  .card-columns {
+    column-count: 2;
+  }
+}
+@media (min-width: 768px) {
+  .role.grad {
+    column-count: 2;
+  }
+  .project-people {
+    column-count: 3;
+  }
+  .card-columns {
+    column-count: 3;
+  }
+}
+.title img {
+  max-width: 50%;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+.profile {
+  object-fit: cover;
+}
+
+.noprofile circle {
+  fill: #EEE;
+}
+
+.noprofile text {
+  font-weight: 700;
+  fill: white;
+}
+
+.card .profile {
+  height: 40px;
+  width: 40px;
+  margin: 3px;
+}
+
+.card .card-footer {
+  padding: 0.5em;
+}
+
+.person {
+  margin-bottom: 10px;
+}
+
+.person .profile {
+  height: 70px;
+  width: 70px;
+}
+
+.person .bio {
+  color: #999;
+}
+
+.person .person-name {
+  margin: 0;
+}
+
+.person-without-image {
+  margin: 0;
+}
+
+.person-without-image .bio {
+  margin-left: 1em;
+}
+
+svg {
+  vertical-align: middle;
+}
+
+.site-title-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 10px 0 10px 0;
+}
+
+.becareful-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #1565a5;
+  line-height: 1.1;
+}
+
+.becareful-bold {
+  color: #1565a5;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin-right: 0.2em;
+  font-size: 2.5rem;
+}
+
+.becareful-subtitle {
+  font-size: 1.1rem;
+  color: #234;
+  font-weight: 500;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  max-width: 600px;
+}
+
+@media (max-width: 576px) {
+  .becareful-title {
+    font-size: 1.3rem;
+  }
+  .becareful-bold {
+    font-size: 1.5rem;
+  }
+  .becareful-subtitle {
+    font-size: 0.95rem;
+    max-width: 95vw;
+  }
+}
+
+/*# sourceMappingURL=group.css.map */
