@@ -66,6 +66,20 @@ TS:
     image: /becareful/img/people/tejas.png
     bio: USC
 
+KA:
+    display_name: "Katherine Atwell"
+    webpage: ""
+    role: grad
+    image: /becareful/img/people/katwell.jpeg
+    bio: NEU
+
+DP:
+    display_name: "Daniel Philipov"
+    webpage: ""
+    role: ugrad
+    image: /becareful/img/people/dphilipov.jpg
+    bio: UIUC
+
 Institutions:
     display_name: 
     webpage: "https://illinois.edu/"

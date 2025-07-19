@@ -17,6 +17,8 @@ roles:
     name: Postdocs
   - key: grad
     name: Graduate Students
+  - key: ugrad
+    name: Undergraduate Students
   - key: Institutions
     name: institutions
   - key: Sponsors
